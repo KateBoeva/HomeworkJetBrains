@@ -1,0 +1,382 @@
+@import "reset.css";
+
+@font-face {
+    font-family: Proxima_Nova_Cond;
+    src: url("fonts/Proxima_Nova_Cond.otf");
+}
+
+@font-face {
+    font-family: Ogilvie_Cyr;
+    src: url("fonts/Ogilvie_Cyr.ttf");
+}
+
+.header {
+    height: 119px;
+    width: auto;
+    background-color: #eff3f7;
+}
+.head {
+    width: 1400px;
+    margin: 0 auto;
+    padding-right: 100px;
+}
+.logo {
+    margin-top: 6px;
+    margin-left: 113px;
+}
+.socialbut {
+    text-align: right;
+}
+.socialbut > a {
+    margin-left: 25px;
+    vertical-align: 30px;
+}
+#gh {
+    margin-right: 100px;
+}
+.tipe {
+    height: 3px;
+    width: auto;
+    background: radial-gradient(at center, #226a7e, #e7eff3);
+}
+.vk, .tw, .fb, .gh{
+    position: relative;
+}
+.vk:hover:after {
+    position: absolute;
+    content: url("img/socialbut/vkhover.png");
+    left: 0;
+    right: 0;
+}
+.tw:hover:after {
+    position: absolute;
+    content: url("img/socialbut/twhover.png");
+    left: 0;
+    right: 0;
+}
+.fb:hover:after {
+    position: absolute;
+    content: url("img/socialbut/fbhover.png");
+    left: 0;
+    right: 0;
+}
+.gh:hover:after {
+    position: absolute;
+    content: url("img/socialbut/ghhover.png");
+    left: 0;
+    right: 0;
+}
+.middle {
+    height: 898px;
+    width: auto;
+    background: url("img/back.png")
+}
+.footer {
+    height: 75px;
+    width: auto;
+    background-color: #eff3f7;
+    text-align: center;
+}
+.lasttable {
+    max-width: 944px;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-family: Fira Sans;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.lock {
+    float: left;
+    width: 44px;
+    margin-top: 25px;
+}
+.mysite {
+    margin-top: 33px;
+    float: left;
+    width: 900px;
+}
+.float {
+    float: left;
+}
+.all {
+    margin: 0 auto;
+}
+ul {
+    text-align: left;
+    margin-left: 20px;
+    width: 241px;
+    list-style: none;
+    font-family: "Fira Sans";
+}
+li a {
+    padding: 5px 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    background: #3ba8c0;
+}
+ul ul{
+    margin: 0;
+}
+ul ul a  {
+    padding-left: 20px;
+    font-size: 12px;
+    color: #959aa8;
+    background: #eff3f7;
+}
+.first_menu {
+    font-size: 23px;
+    line-height: 60px;
+}
+.second_menu {
+    line-height: 30px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.uf {
+    font-size: 23px;
+}
+.all {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 77.5px;
+}
+.menu {
+    margin-top: 40px;
+    text-align: center;
+    width: 236px;
+    float: left;
+    box-sizing: content-box;
+    padding: 0 17px;
+    margin-right: 31.32px;
+    border-radius: 5px;
+}
+
+.form {
+    height: 118px;
+    width: 650px;
+    background-color: #48cbe8;
+}
+#forma {
+
+}
+
+.bigtipe {
+    height: 12px;
+    width: 650px;
+    background-color: #67dffa;
+}
+
+.worksheet {
+    width: 650px;
+    height: 674px;
+    background-color: #eff3f7;
+}
+
+p {
+    font-family: Fira Sans;
+}
+
+.form > p {
+    font-size: 27px;
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+.persondata {
+    display:inline-block;
+    width: 400px;
+    padding-top: 50px;
+}
+.messagedata {
+    width: 400px;
+    margin-left: 125px;
+    padding-top: 19px;
+    float: left;
+}
+.codedata {
+    width: 400px;
+    margin-left: 125px;
+    padding-top: 19px;
+    float: left;
+}
+
+.persondata > div {
+    width: 191px;
+    float: left;
+}
+.namedata {
+    margin-right: 9px;
+}
+.emaildata {
+    margin-left: 9px;
+}
+.codetext {
+    width: 168px;
+    height: 60px;
+    padding-top: 19px;
+    padding-bottom: 15px;
+    padding-left: 14px;
+    border-color: #4dcce8;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: double;
+    color: #000;
+    font-family: "Ogilvie_Cyr";
+    font-size: 45px;
+    background-color: white;
+}
+.code {
+    width: 172px;
+    height: 21px;
+    margin-top: 28px;
+    margin-left: 9px;
+    float: right;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-bottom: 11px;
+}
+.description {
+    float: left;
+    font-size: 19px;
+    color: #adb2bd;
+    margin-bottom: 8px;
+}
+input {
+    width: 173px;
+    height: 40px;
+    padding: 9px;
+    border-color: #4dcce8;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: double;
+    font-size: 13px;
+    color: #4dcce8;
+}
+textarea {
+    padding: 9px;
+    border-color: #4dcce8;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: double;
+    font-size: 13px;
+    color: #4dcce8;
+}
+.message {
+    width: 382px;
+    height: 184px;
+}
+
+::-webkit-input-placeholder {color:#4dcce8;}
+::-moz-placeholder          {color:#4dcce8;}
+:-moz-placeholder           {color:#4dcce8;}
+:-ms-input-placeholder      {color:#4dcce8;}
+
+.buttons {
+    display:inline-block;
+    width: 400px;
+    padding-top: 21px;
+    height: 33px;
+}
+
+.send {
+    width: 137px;
+    padding-left: 22px;
+    padding-right: 22px;
+    float: left;
+    background-color: #4dcce8;
+    color: #ffffff;
+    border-bottom-color: #3ba8c0;
+    font-size: 19px;
+}
+
+.clean {
+    width: 125px;
+    padding-left: 22px;
+    padding-right: 22px;
+    float: right;
+    background-color: #849db5;
+    border-bottom-color: #687b8f;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 19px;
+    color: #ffffff;
+}
+
+.table {
+    width: 642px;
+    padding: 20px;
+}
+table {
+    border-spacing: 10px 0;
+}
+.pochta {
+    background-color: #41b9d4;
+    color: #ffffff;
+}
+.phone {
+    background-color: #48cbe8;
+    color: #ffffff;
+}
+.skype {
+    background-color: #51daf8;
+    color: #ffffff;
+}
+
+.window {
+    background-color: #eff3f7;
+    border-radius: 3px;
+    vertical-align: top;
+    font-family: "Fira Sans";
+
+}
+input[type="radio"] {
+    display: none;
+}
+hr {
+    border-color: #3ba8c0;
+    width: 239px;
+    margin-top: 4px;
+}
+input[type="radio"] + label {
+    display: block;
+    width: 241px;
+    height: 65px;
+    text-align: center;
+    border-radius: 3px;
+    transition: .3s;
+}
+input[type="radio"]:checked + label a{
+    background-color: #3ba8c0;
+    color: #ffffff;
+    margin-left: 0px;
+    padding-left: 20px;
+    border-radius: 4px;
+}
+.window a {
+    text-align: left;
+    margin-left: 20px;
+    color: #959aa8;
+    text-decoration: none;
+    display: block;
+}
+.window hr {
+    margin-left: -20px;
+}
+.window a:hover {
+    color: #3ba8c0;
+}
+.pics {
+    padding-right: 10px;
+}
+.contacts a {
+    margin: 50px;
+}
+.skype, .pochta, .phone{
+    text-decoration: none;
+}
+.skype:hover, .pochta:hover, .phone:hover{
+    text-decoration: underline;
+}
