@@ -157,6 +157,7 @@ ul ul a  {
     height: 118px;
     width: 650px;
     background-color: #48cbe8;
+    border-radius: 4px 4px 0 0;
 }
 #forma {
 
@@ -172,6 +173,7 @@ ul ul a  {
     width: 650px;
     height: 674px;
     background-color: #eff3f7;
+    border-radius: 0 0 4px 4px;
 }
 
 p {
@@ -221,7 +223,7 @@ p {
     border-color: #4dcce8;
     border-radius: 5px;
     border-width: 2px;
-    border-style: double;
+    border-style: solid;
     color: #000;
     font-family: "Ogilvie_Cyr";
     font-size: 45px;
@@ -250,7 +252,7 @@ input {
     border-color: #4dcce8;
     border-radius: 5px;
     border-width: 2px;
-    border-style: double;
+    border-style: solid;
     font-size: 13px;
     color: #4dcce8;
 }
@@ -259,7 +261,7 @@ textarea {
     border-color: #4dcce8;
     border-radius: 5px;
     border-width: 2px;
-    border-style: double;
+    border-style: solid;
     font-size: 13px;
     color: #4dcce8;
 }
