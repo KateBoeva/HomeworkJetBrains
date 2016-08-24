@@ -1,4 +1,4 @@
-@import "reset.css";
+@import "../styles/reset.css";
 
 @font-face {
     font-family: Proxima_Nova_Cond;
@@ -11,7 +11,7 @@
     background: radial-gradient(at center, #226a7e, #e7eff3);
 }
 .middle {
-    height: 898px;
+    /*height: 898px;*/
     width: auto;
     background: url("../img/back.png")
 }
@@ -40,7 +40,6 @@
 .all {
     max-width: 625px;
     margin: 0 auto;
-    overflow: hidden;
     margin-bottom: 77.5px;
 }
 .menu {
@@ -56,6 +55,21 @@
     background-color: #48cbe8;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+.label {
+    font-family: "Fira Sans";
+    font-size: 13px;
+    /*width: 550px;*/
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+    color: #fff;
+    left: -115px;
+    background: red;
+    position: absolute;
+    display: none;
+    margin-top: 16%;
+    float: right;
 }
 .bigtipe {
     width: 585px;
@@ -77,15 +91,14 @@ p {
     color: #ffffff;
     padding-top: 28px;
 }
-.logindata {
-    width: 425px;
+#login {
     padding-top: 27px;
     margin-bottom: 23px;
-    margin-left: 83px;
 }
-.passworddata {
+.data {
     width: 425px;
     margin-left: 83px;
+    position: relative;
 }
 .description {
     font-size: 36px;

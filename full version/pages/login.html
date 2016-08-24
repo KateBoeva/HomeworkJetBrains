@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Page 4</title>
     <link href="../styles/loginstyle.css" rel="stylesheet">
+    <!--<link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 320px max-device-width: 800px)" href="../styles/loginstyleadaptive.css" />-->
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
@@ -16,17 +17,21 @@
             </div>
             <div class="bigtipe">
             </div>
-            <div class="worksheet">
-                <div class="logindata">
+
+            <form class="worksheet">
+                <div class="data" id="login">
+                    <span class="label">введите логин</span>
                     <p class="description">Логин</p>
-                    <input class="validate[required]" type="text" placeholder="Введите логин" required>
+                    <input class="input" type="text" placeholder="Введите логин" required>
                 </div>
-                <div class="passworddata">
+                <div class="data">
+                    <span class="label">введите пароль</span>
                     <p class="description">Пароль</p>
-                    <input type="password" placeholder="Введите пароль" required>
+                    <input class="input" type="password" placeholder="Введите пароль" required>
                 </div>
                 <a href="firstpage.html"><input class="signin" type="button" value="Войти"></a>
-            </div>
+            </form>
+            <script src="../js/login.js"></script>
         </div>
     </div>
 </div>

@@ -1,4 +1,4 @@
-@import "reset.css";
+@import "../styles/reset.css";
 
 @font-face {
     font-family: Proxima_Nova_Cond;
@@ -15,12 +15,14 @@
     margin: 0 auto;
     padding-right: 100px;
 }
+
 .logo {
     margin-top: 6px;
     margin-left: 113px;
 }
 .socialbut {
-    text-align: right;
+    text-align: left;
+    padding-left: 750px;
 }
 .socialbut > a {
     margin-left: 25px;
@@ -119,6 +121,22 @@ ul ul a  {
     font-size: 12px;
     color: #959aa8;
     background: #eff3f7;
+}
+.myworks {
+    background-color: #eff3f7;
+    text-decoration: none;
+    color: #959aa8;
+}
+.connect {
+    background-color: #eff3f7;
+    text-decoration: none;
+    color: #959aa8;
+}
+.myworks:hover {
+    color: #3ba8c0;
+}
+.connect:hover {
+    color: #3ba8c0;
 }
 .first_menu {
     font-size: 23px;
@@ -282,49 +300,20 @@ table {
     background-color: #51daf8;
     color: #ffffff;
 }
-.window {
-    background-color: #eff3f7;
-    border-radius: 3px;
-    vertical-align: top;
-    font-family: "Fira Sans";
 
-}
 input[type="radio"] {
     display: none;
+}
+.hr {
+    margin-top: 3px;
+    margin-bottom: -5px;
+    margin-left: -10px;
 }
 hr {
     border-color: #3ba8c0;
     width: 239px;
-    margin-top: 4px;
 }
-input[type="radio"] + label {
-    display: block;
-    width: 241px;
-    height: 65px;
-    text-align: center;
-    border-radius: 3px;
-    transition: .3s;
-}
-input[type="radio"]:checked + label a{
-    background-color: #3ba8c0;
-    color: #ffffff;
-    margin-left: 0px;
-    padding-left: 20px;
-    border-radius: 4px;
-}
-.window a {
-    text-align: left;
-    margin-left: 20px;
-    color: #959aa8;
-    text-decoration: none;
-    display: block;
-}
-.window hr {
-    margin-left: -20px;
-}
-.window a:hover {
-    color: #3ba8c0;
-}
+
 .pics {
     padding-right: 10px;
 }

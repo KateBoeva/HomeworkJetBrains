@@ -1,4 +1,4 @@
-@import "reset.css";
+@import "../styles/reset.css";
 
 @font-face {
     font-family: Proxima_Nova_Cond;
@@ -120,6 +120,22 @@ ul ul a  {
     color: #959aa8;
     background: #eff3f7;
 }
+.myworks {
+    background-color: #eff3f7;
+    text-decoration: none;
+    color: #959aa8;
+}
+.connect {
+    background-color: #eff3f7;
+    text-decoration: none;
+    color: #959aa8;
+}
+.myworks:hover {
+    color: #3ba8c0;
+}
+.connect:hover {
+    color: #3ba8c0;
+}
 .first_menu {
     font-size: 23px;
     line-height: 60px;
@@ -221,10 +237,21 @@ h1 {
 }
 .rollover:hover:after {
     position: absolute;
+    content: "название";
+    left: 0;
+    right: 0;
+    top: -60px;
+    bottom: 0;
+    z-index: 2;
+}
+.rollover:hover:after {
+    position: absolute;
     content: url("../img/page2/works/hover.png");
     left: 0;
     right: 0;
-    bottom: 2px;
+    top: -117px;
+    bottom: 0;
+    z-index: 1;
 }
 .pochta {
     background-color: #41b9d4;
@@ -251,36 +278,15 @@ input[type="radio"] {
 hr {
     border-color: #3ba8c0;
     width: 239px;
-    margin-top: 4px;
+    /*margin-top: 4px;*/
 }
-input[type="radio"] + label {
-    display: block;
-    width: 241px;
-    height: 65px;
-    text-align: center;
-    border-radius: 3px;
-    transition: .3s;
+.hr {
+    margin-top: 3px;
+    margin-bottom: -5px;
+    margin-left: -10px;
 }
-input[type="radio"]:checked + label a{
-    background-color: #3ba8c0;
-    color: #ffffff;
-    margin-left: 0px;
-    padding-left: 20px;
-    border-radius: 4px;
-}
-.window a {
-    text-align: left;
-    margin-left: 20px;
-    color: #959aa8;
-    text-decoration: none;
-    display: block;
-}
-.window hr {
-    margin-left: -20px;
-}
-.window a:hover {
-    color: #3ba8c0;
-}
+
+
 .pics {
     padding-right: 10px;
 }
