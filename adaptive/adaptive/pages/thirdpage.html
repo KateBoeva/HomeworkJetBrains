@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Page 3</title>
-    <link href="stylethird.css" rel="stylesheet">
+    <link href="../styles/stylethird.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
@@ -11,12 +11,12 @@
 <div class="header">
     <table class="head">
         <tr>
-            <td><img class="logo" src="img/logo.png"></td>
+            <td><img class="logo" src="../img/logo.png"></td>
             <td class="socialbut">
-                <a href="#" class="vk"><img src="img/socialbut/vk.png"></a>
-                <a href="#" class="tw"><img src="img/socialbut/tw.png"></a>
-                <a href="#" class="fb"><img src="img/socialbut/fb.png"></a>
-                <a href="#" class="gh" id="gh"><img src="img/socialbut/gh.png"></a>
+                <a href="#" class="vk"><img class="img" src="../img/socialbut/vk.png"></a>
+                <a href="#" class="tw"><img class="img" src="../img/socialbut/tw.png"></a>
+                <a href="#" class="fb"><img class="img" src="../img/socialbut/fb.png"></a>
+                <a href="#" class="gh" id="gh"><img class="img" src="../img/socialbut/gh.png"></a>
             </td>
         </tr>
     </table>
@@ -24,7 +24,7 @@
 <div class="tipe"></div>
 <div class="middle">
     <div class="all">
-        <div class="menu">
+        <!--<div class="menu">
             <ul class="first_menu">
                 <table class="window">
                     <tr>
@@ -65,7 +65,7 @@
                 </li>
             </ul>
             <script src="jsaccord.js"></script>
-        </div>
+        </div>-->
 
         <div class="menu" id="forma">
             <div class="form" >
@@ -74,7 +74,7 @@
             <div class="bigtipe">
             </div>
             <div class="worksheet">
-                <span class="persondata">
+                <div class="persondata">
                     <div class="namedata">
                         <p class="description">Имя</p>
                         <input type="text" placeholder="Как к Вам обращаться">
@@ -83,17 +83,17 @@
                         <p class="description">Email</p>
                         <input type="text" placeholder="Куда мне писать">
                     </div>
-                </span>
+                </div>
                 <div class="messagedata">
                     <p class="description">Сообщение</p>
                     <textarea class="message" type="text" placeholder="Кратко в чем суть"></textarea>
                 </div>
                 <div class="codedata">
-                    <p class="description">Введите код, указанный на картинке</p>
-                    <span>
+                    <p class="description">Введите код, указанный на картинке</p><br><br>
+                    <!--<span>-->
                         <input class="codetext" value="E0Ed3r" disabled>
                         <input class="code" placeholder="Введите код">
-                    </span>
+                    <!--</span>-->
                 </div>
                 <span class="buttons">
                     <input class="send" type="button" value="Отправить">
@@ -107,7 +107,6 @@
 <div class="footer">
     <table class="lasttable">
         <tr>
-            <td class="float"><a href="login.html" class="lock"><img src="img/footer/closed.png"></a></td>
             <td class="float"><a class="mysite">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его</a></td>
         </tr>
     </table>

@@ -2,27 +2,31 @@
 
 @font-face {
     font-family: Proxima_Nova_Cond;
-    src: url("fonts/Proxima_Nova_Cond.otf");
+    src: url("../fonts/Proxima_Nova_Cond.otf");
 }
 
 .tipe {
     height: 3px;
-    width: auto;
+    width: 100%;
+    max-width: 770px;
     background: radial-gradient(at center, #226a7e, #e7eff3);
 }
 .middle {
     height: 898px;
-    width: auto;
-    background: url("img/back.png")
+    width: 100%;
+    max-width: 770px;
+    background: url("../img/back.png")
 }
 .footer {
     height: 75px;
-    width: auto;
+    width: 100%;
+    max-width: 770px;
     background-color: #eff3f7;
     text-align: center;
 }
 .lasttable {
-    max-width: 944px;
+    width: 100%;
+    max-width: 770px;
     margin: 0 auto;
     padding-top: 30px;
     font-family: Fira Sans;
@@ -30,17 +34,20 @@
     margin-bottom: 10px;
 }
 .mysite {
+    width: 100%;
+    max-width: 770px;
     margin-top: 33px;
     float: left;
-    width: 900px;
 }
 .float {
-    float: left;
+    width: 100%;
+    max-width: 770px;
+    align-content: center;
 }
 .all {
-    max-width: 625px;
+    width: 71.42857142857143%;
+    max-width: 770px;
     margin: 0 auto;
-    overflow: hidden;
     margin-bottom: 77.5px;
 }
 .menu {
@@ -51,19 +58,22 @@
     box-shadow: 1px 11px 33px -12px #555;
 }
 .form {
-    width: 585px;
+    width: 100%;
+    max-width: 770px;
     height: 92px;
     background-color: #48cbe8;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 .bigtipe {
-    width: 585px;
+    width: 100%;
+    max-width: 770px;
     height: 15px;
     background-color: #67dffa;
 }
 .worksheet {
-    width: 585px;
+    width: 100%;
+    max-width: 770px;
     height: 377px;
     background-color: #eff3f7;
     border-bottom-left-radius: 5px;
@@ -71,21 +81,37 @@
 }
 p {
     font-family: Fira Sans;
+    font-size: 40px;
 }
 .form > p {
-    font-size: 40px;
+    /*font-size: 40px;*/
+    font-size: 7.84313725490196vw;
+    max-font-size: 40px;
     color: #ffffff;
     padding-top: 28px;
+    margin: 0 auto;
 }
-.logindata {
-    width: 425px;
+.label {
+    font-family: "Fira Sans";
+    font-size: 13px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+    color: #fff;
+    left: -100px;
+    background: red;
+    position: absolute;
+    display: none;
+    margin-top: 16%;
+}
+#login {
     padding-top: 27px;
     margin-bottom: 23px;
-    margin-left: 83px;
 }
-.passworddata {
-    width: 425px;
-    margin-left: 83px;
+.data {
+    width: 83.33333333333333%;
+    margin: 0 auto;
+    position: relative;
 }
 .description {
     font-size: 36px;
@@ -94,7 +120,7 @@ p {
     margin-bottom: 13px;
 }
 input {
-    width: 407px;
+    width: 95.76470588235294%;
     height: 44px;
     padding: 9px;
     border-color: #4dcce8;
@@ -109,18 +135,18 @@ input {
 :-moz-placeholder           {color:#4dcce8;}
 :-ms-input-placeholder      {color:#4dcce8;}
 .signin {
-    width: 226px;
+    width: 44.31372549019608%;
     height: 50px;
     margin-top: 33px;
     margin-bottom: 23px;
-    padding-left: 65px;
-    padding-right: 65px;
     padding-top: 9px;
     padding-bottom: 9px;
     border-style: solid;
     border-bottom-width: 4px;
     border-bottom-color: #3ba8c0;
-    font-size: 30px;
+    /*font-size: 30px;*/
+    text-align: center;
+    font-size: 5.882352941176471vw;
     background-color: #4dcce8;
     color: #ffffff;
 }

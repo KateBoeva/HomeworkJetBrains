@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Page 1</title>
-    <link href="stylefirst.css" rel="stylesheet">
+    <link href="../styles/stylefirst.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
@@ -11,12 +11,12 @@
     <div class="header">
         <table class="head">
             <tr>
-                <td><img class="logo" src="img/logo.png"></td>
+                <td><img class="logo" src="../img/logo.png"></td>
                 <td class="socialbut">
-                    <a href="#" class="vk"><img src="img/socialbut/vk.png"></a>
-                    <a href="#" class="tw"><img src="img/socialbut/tw.png"></a>
-                    <a href="#" class="fb"><img src="img/socialbut/fb.png"></a>
-                    <a href="#" class="gh" id="gh"><img src="img/socialbut/gh.png"></a>
+                    <a href="#" class="vk"><img class="img" src="../img/socialbut/vk.png"></a>
+                    <a href="#" class="tw"><img class="img" src="../img/socialbut/tw.png"></a>
+                    <a href="#" class="fb"><img class="img" src="../img/socialbut/fb.png"></a>
+                    <a href="#" class="gh" id="gh"><img class="img" src="../img/socialbut/gh.png"></a>
                 </td>
             </tr>
         </table>
@@ -27,7 +27,7 @@
     <div class="middle">
 
         <div class="all">
-            <div class="menu">
+            <!--<div class="menu" id="menu">
 
                 <ul class="first_menu">
                     <table class="window">
@@ -66,21 +66,21 @@
                 <ul class="second_menu">
                     <li><a href="#" style="border-radius: 4px 4px 0 0; ">Контакты</a>
                         <ul>
-                            <li><a class="pochta"><span><img class="pics" src="img/menu/msg.png"></span>pochta@mail.ru</a></li>
-                            <li><a class="phone"><span><img class="pics" src="img/menu/phone.png"></span>+79870052424</a></li>
-                            <li><a class="skype" style="border-radius: 0 0 4px 4px"><span><img class="pics" src="img/menu/skype.png"></span>nickname</a></li>
+                            <li><a class="pochta"><span><img class="pics" src="../img/menu/msg.png"></span>pochta@mail.ru</a></li>
+                            <li><a class="phone"><span><img class="pics" src="../img/menu/phone.png"></span>+79870052424</a></li>
+                            <li><a class="skype" style="border-radius: 0 0 4px 4px"><span><img class="pics" src="../img/menu/skype.png"></span>nickname</a></li>
                         </ul>
                     </li>
                 </ul>
-                <script src="jsaccord.js"></script>
-            </div>
+                <script src="../js/jsaccord.js"></script>
+            </div>-->
 
             <div class="menu">
 
                 <div class="blockone">
                     <p class="title">Основная информация</p>
                     <hr class="divider" id="dividerone">
-                    <img class="icon" src="img/blocks/userl.png">
+                    <img class="user_icon" src="../img/blocks/userl.png">
                     <div>
                         <p><span class="item">Меня зовут:&nbsp;&nbsp;&nbsp;&nbsp;</span>Иванов Андрей Степанович</p>
                         <p><span class="item">Мой возраст:&nbsp;&nbsp;&nbsp;&nbsp;</span>25 лет</p>
@@ -105,7 +105,7 @@
                     <table class="port">
                         <tr>
                             <td>
-                                <img class="icon" src="img/blocks/back.png">
+                                <img class="icon" src="../img/blocks/back.png">
                                 <div class="content">
                                     <p class="place"><span class="item">"ИП Боровицкий" - Продавец дисков</span></p>
                                     <p class="time">Сентябрь 2005 - Август 2008</p>
@@ -114,7 +114,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <img class="icon" src="img/blocks/back.png">
+                                <img class="icon" src="../img/blocks/back.png">
                                 <div class="content">
                                     <p class="place"><span class="item">"ООО Системы безопастности" - Системный администратор</span></p>
                                     <p class="time">Июнь 2008 - Июль 2010</p>
@@ -130,7 +130,7 @@
                     <table class="port">
                         <tr>
                             <td>
-                                <img class="icon" src="img/blocks/institute.png">
+                                <img class="icon" src="../img/blocks/institute.png">
                                 <div class="content">
                                     <p class="place"><span class="item">Незаконченное высшее. СПБГУ ИТМО</span></p>
                                     <p class="time">Октябрь 2012 - по настоящее время</p>
@@ -139,7 +139,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <img class="icon" id="iconcourse" src="img/blocks/course.png">
+                                <img class="icon" id="iconcourse" src="../img/blocks/course.png">
                                 <div class="content">
                                     <p class="place"><span class="item">Курсы Loftschool.ru</span></p>
                                     <p class="time">Ноябрь 2014 - по настоящее время</p>
@@ -154,12 +154,7 @@
     </div>
     <div class="tipe"></div>
     <div class="footer">
-        <table class="lasttable">
-            <tr>
-                <td class="float"><a href="login.html" class="lock"><img src="img/footer/closed.png"></a></td>
-                <td class="float"><a class="mysite">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его</a></td>
-            </tr>
-        </table>
+                <a class="mysite">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его</a></td>
     </div>
 </body>
 </html>
